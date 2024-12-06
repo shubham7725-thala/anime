@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  background-color: wheat;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  background-image: url(image.html/296758.jpg);
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  font-size: 40px;
+  color: wheat;
+
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="about-section">
+  <h1>ANIMANIA</h1>
+  <p>ABOUT US <br>Lets watch along, Lets fell along</p>
+</div>
+
+<h2 style="text-align:center">Our Team</h2>
+<div class="row">
+
+  <div class="column">
+    <div class="card">
+      <img src="image.html/386761.jpg" alt="Luffy" style="width:100%">
+      <div class="container">
+        <h2>One Piece</h2>
+        <p>Lets find the greatst treasure of pirats eith Luffy The "One Piece"</p>
+        <p><button class="button"><a href="https://hianime.to/watch/one-piece-100?ep=126171">Watch</button></p>
+      </div>
+    </div>
+  </div>
+ 
+  <div class="column">
+    <div class="card">
+      <img src="image.html/8296876.png" alt="Sung" style="width:100%">
+      <div class="container">
+        <h2>Solo leveling</h2>
+        <p>A low ranked hinteer try to become strong to earn money for her mother .lets see how the story takes turn</p>
+        <p><button class="button"><a href="https://hianime.to/watch/solo-leveling-18718?ep=114721">Watch</button></p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img src="image.html/622898.jpg" alt="naruto" style="width:100%">
+      <div class="container">
+        <h2>Naruto</h2>
+        <p>Naruto want to become the greatest ninja of world and want to become Hokage</p>
+        <p><button class="button"><a href="https://hianime.to/watch/naruto-shippuden-355?ep=7882">Watch</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
+

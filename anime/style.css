@@ -1,0 +1,57 @@
+body{
+    background-image:url(image.html/11020274.jpg) ;
+    background-repeat:no-repeat ;
+    background-size:cover;
+}
+
+ul{
+
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+    overflow: hidden;
+    background-color:black(239, 26, 157);
+}
+li{
+  float: none;
+
+
+}
+li{
+    float: left;
+}
+
+li a{
+    background-color: black;
+    font-size: 60px;
+    display:block;
+    color: wheat;
+    text-align:center ;
+    padding: 14px 140px;
+    text-decoration: none;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 1px;
+}
+li a:hover{
+
+background-color:wheat;
+
+}
+
+
+
+.logo {
+    position: absolute;
+    top: 10px; /* Adjust to add space from the top */
+    left: 10px; /* Adjust to add space from the left */
+    width: 100px; /* Set the desired width for the logo */
+    height: auto; /* Maintain aspect ratio */
+}
+h1{
+    font-size: 100px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    color: wheat;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 2px;
+}
